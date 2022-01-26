@@ -283,6 +283,7 @@ int main() {
 
         outputFile << "Time taken: ";
         outputFile << diff.count();
+        outputFile << " s";
         outputFile << endl;
         outputFile << endl;
     }
