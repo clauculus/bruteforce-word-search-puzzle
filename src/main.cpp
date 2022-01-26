@@ -248,7 +248,7 @@ int main() {
                 if (searchpoint(wordpuzzle, wordlist, wordpuzzle.size(), wordpuzzle[0].size(), row, col, i)){
     
                     vector<vector<int>> stringcoordinate = returnpoint(wordpuzzle, wordlist, wordpuzzle.size(), wordpuzzle[0].size(), row, col, i);
-
+                    cout << wordlist[i] << endl;
                     for (int k=0; k < wordpuzzle.size(); k++){
                         for (int l=0; l < wordpuzzle[0].size(); l++){
                             if (k == row && l == col){
@@ -275,7 +275,6 @@ int main() {
         }
 
         auto stop = std::chrono::steady_clock::now();
-        auto duration  = std::chrono::duration_cast<std::chrono::nanoseconds>(stop-start);
 
         std::chrono::duration<double> diff = stop - start;
         std::cout << "Time taken: "<< diff.count() << " s" << endl;

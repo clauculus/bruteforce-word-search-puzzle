@@ -1,22 +1,19 @@
 # word-search-puzzle
 
-Word search puzzle solver with Brute Force Algorithm
-This program accept txt file with word puzzle and wordlist inside
+Word search puzzle solver with Brute Force Algorithm, this program accept txt file with word puzzle and wordlist inside
 
 # Requirement
 
-1. Make you you have 
-
+C++
 
 # How to use
 
-1. Open cmd and get into src directory
+1. Open terminal and get into src directory
 2. Move the .txt file to the same directory with main.cpp (to src directory)
-3. 
+3. Copy and paste this to your terminal
 ```
 g++ main.cpp -o main.exe
 ```
-4.
 ```
 .\main
 ```
