@@ -8,61 +8,7 @@ using namespace std;
 
 // function to convert parsed string to character
 char string2char(string s){
-
-    if (s == "A"){
-        return 'A';
-    } else if (s == "B"){
-        return 'B';
-    } else if (s == "C"){
-        return 'C';
-    } else if (s == "D"){
-        return 'D';
-    } else if (s == "E"){
-        return 'E';
-    } else if (s == "F"){
-        return 'F';
-    } else if (s == "G"){
-        return 'G';
-    } else if (s == "H"){
-        return 'H';
-    } else if (s == "I"){
-        return 'I';
-    } else if (s == "J"){
-        return 'J';
-    } else if (s == "K"){
-        return 'K';
-    } else if (s == "L"){
-        return 'L';
-    } else if (s == "M"){
-        return 'M';
-    } else if (s == "N"){
-        return 'N';
-    } else if (s == "O"){
-        return 'O';
-    } else if (s == "P"){
-        return 'P';
-    } else if (s == "Q"){
-        return 'Q';
-    } else if (s == "R"){
-        return 'R';
-    } else if (s == "S"){
-        return 'S';
-    } else if (s == "T"){
-        return 'T';
-    } else if (s == "U"){
-        return 'U';
-    } else if (s == "V"){
-        return 'V';
-    } else if (s == "W"){
-        return 'W';
-    } else if (s == "X"){
-        return 'X';
-    } else if (s == "Y"){
-        return 'Y';
-    } else {
-        return 'Z';
-    }          
-
+    return s.at(0);
 }
 
 // to find {i, j} exists in a 2d vector
